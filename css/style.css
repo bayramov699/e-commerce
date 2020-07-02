@@ -1,0 +1,34 @@
+body {
+  font-family: "Helvetica Neue";
+  text-transform: uppercase;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+   .example-div{
+        background-color: white;
+        border-right: 4rem solid white;
+        padding: 0%;
+  }
+  .example-div img{
+      width: 50%;
+  }
+  .nav-item{
+      color: #000F08;
+      
+  }
+  .sign-up{
+      text-align: center;
+  }
+  .nav-item-2{
+      color: #8C8C8C;
+  }
